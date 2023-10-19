@@ -1,7 +1,7 @@
 import requests
 from lxml import etree
 
-
+#There are a lot of treasures stored in this website
 for i in range(1,10):
         url = f'http://www.66ip.cn/{i}.html'
         print(url)
